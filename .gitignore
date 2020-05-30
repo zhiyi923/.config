@@ -17,5 +17,3 @@ neofetch
 nvim/.netrwhist
 nvim/autoload
 nvim/plugged
-polybar
-rofi
