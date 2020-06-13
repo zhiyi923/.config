@@ -14,7 +14,10 @@ call plug#begin('~/.config/nvim/plugged')
 	" fzf
 	Plug 'junegunn/fzf.vim'
 	" Visa Tag
-	Plug 'junegunn/vista.vim'
+	Plug 'junegunn/visa.vim'
+
+	" Golang
+    Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 	" Markdown
 	Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install_sync() }, 'for' :['markdown', 'vim-plug'] }
