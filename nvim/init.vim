@@ -14,7 +14,7 @@ call plug#begin('~/.config/nvim/plugged')
 	" fzf
 	Plug 'junegunn/fzf.vim'
 	" Visa Tag
-	Plug 'junegunn/visa.vim'
+	"Plug 'junegunn/visa.vim'
 
 	" Golang
     Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
@@ -23,6 +23,26 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install_sync() }, 'for' :['markdown', 'vim-plug'] }
 	Plug 'dhruvasagar/vim-table-mode', { 'on': 'TableModeToggle' }
 	Plug 'dkarter/bullets.vim', { 'for' :['markdown', 'vim-plug'] }
+
+	" React
+	" ES2015 code snippets (Optional)
+	Plug 'epilande/vim-es2015-snippets'
+
+	" React code snippets
+	Plug 'epilande/vim-react-snippets'
+	Plug 'mxw/vim-jsx'
+	Plug 'maxmellon/vim-jsx-pretty'
+	Plug 'yuezk/vim-js'
+	Plug 'maxmellon/vim-jsx-pretty'
+	Plug 'HerringtonDarkholme/yats.vim'
+	" or Plug 'leafgarland/typescript-vim'
+	Plug 'maxmellon/vim-jsx-pretty'
+
+	" Ultisnips
+	Plug 'SirVer/ultisnips'
+
+	" Trigger configuration (Optional)
+	" let g:UltiSnipsExpandTrigger="<C-l>"
 call plug#end()
 
 " Let clangd fully control code completion

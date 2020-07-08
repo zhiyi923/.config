@@ -504,6 +504,8 @@ background_opacity: 0.7
 # at once.
 key_bindings:
   # (Windows, Linux, and BSD only)
+  - { key: V,        mods: Super,         action: Paste            }
+  - { key: C,        mods: Super,         action: Copy             }
   - { key: V,        mods: Control|Shift, action: Paste            }
   - { key: C,        mods: Control|Shift, action: Copy             }
   - { key: Insert,   mods: Control,       action: Copy             }
