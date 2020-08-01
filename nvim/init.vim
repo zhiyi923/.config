@@ -8,6 +8,8 @@ call plug#begin('~/.config/nvim/plugged')
     " 主题设置
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
+	" NerdTree
+	Plug 'preservim/nerdtree'
 
     " floaterm
     Plug 'voldikss/vim-floaterm'
